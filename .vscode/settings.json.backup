@@ -1,4 +1,21 @@
 {
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": false,
+  "editor.parameterHints.enabled": false,
+  "editor.hover.enabled": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.lightbulb.enabled": false,
+  "editor.formatOnType": false,
+  "editor.suggest.showWords": false,
+  "extensions.ignoreRecommendations": true,
+  "typescript.disableAutomaticTypeAcquisition": true
+}
+{
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
@@ -55,6 +72,5 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "extensions.ignoreRecommendations": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
 }

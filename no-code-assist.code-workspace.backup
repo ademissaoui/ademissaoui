@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": false,
+    "editor.parameterHints.enabled": false,
+    "editor.hover.enabled": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.lightbulb.enabled": false,
+    "editor.formatOnType": false,
+    "editor.suggest.showWords": false,
+    "extensions.ignoreRecommendations": true,
+    "typescript.disableAutomaticTypeAcquisition": true
+  }
+}
