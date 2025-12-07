@@ -77,9 +77,23 @@ void produit::saisir(){
     cout<<"saisir le nombre d'opertion"<<endl;
     cin>>nb_op;
     cout<<"saisir le nombre d'operation"<<endl;
-    for(int i = 0,i < nb_op,i++){
-        
-
+    for(int i=0;i<nb_op;i++){
+        cout<<"saisir l'operation "<<i+1<<":"<<endl;
+        cin>>tab[i];
+    }
+};
+void liste_produit::ajouter_produit(const produit& p){
+    node* new_node = new node;
+    new_node->data = p;
+    new_node->next = head;
+    head = new_node;
+}
+void liste_produit::afficher_produits(){
+    node* current = head;
+    while(current != nullptr){
+        current->data.afficher();
+        cout<< "---------------------"<<endl;
+        current = current->next;
     }
 }
 

@@ -61,6 +61,8 @@ int main(){
     M.add_movie(m1);
     M.add_movie(m2);
     M.display();
+    
+    
 
 
     

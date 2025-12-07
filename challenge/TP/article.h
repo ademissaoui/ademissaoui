@@ -41,6 +41,20 @@ class produit:public article{
         void afficher();
         void saisir();
 };
+struct node{
+    produit data;
+    node* next;
+};
+class liste_produit{
+    private:
+        node* head;
+    public:
+        liste_produit();
+        ~liste_produit();
+        void ajouter_produit(const produit& p);
+        void afficher_produits();
+
+};
 
 
 
