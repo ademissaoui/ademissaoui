@@ -2,6 +2,26 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Debug POO-Tps/Tp1 main.exe",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/POO-Tps/Tp1/main.exe",
+      "preLaunchTask": "Build POO-Tps/Tp1 main.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/POO-Tps/Tp1",
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
       "name": "Debug with g++ and gdb",
       "type": "cppdbg",
       "request": "launch",
@@ -31,7 +51,7 @@
       "cwd": "c:/Users/MSI/OneDrive/Desktop/TD_C++",
       "program": "c:/Users/MSI/OneDrive/Desktop/TD_C++/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
